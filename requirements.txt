@@ -1,0 +1,5 @@
+numpy == 1.19.2
+torch == 1.7.0
+transformers == 4.3.2
+openai == 0.3.0
+pandas == 1.1.5
