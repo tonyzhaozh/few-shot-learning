@@ -67,10 +67,10 @@ For all experiments, we save and pickle the outputs of the model. This makes doi
 
 Please consider citing our work if you found this code or our paper beneficial to your research.
 ```
-@article{Zhao2020Calibrate,	
+@article{Zhao2021Calibrate,	
   Author = {Tony Z. Zhao and Eric Wallace and Shi Feng and Dan Klein and Sameer Singh},	
   Journal={arXiv preprint arXiv:TODO},	
-  Year = {2020},	
+  Year = {2021},	
   Title = {Calibrate Before Use: Improving Few-shot Performance of Language Models}	
 }    	
 ```
