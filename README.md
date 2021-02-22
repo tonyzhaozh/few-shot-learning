@@ -69,7 +69,7 @@ Please consider citing our work if you found this code or our paper beneficial t
 ```
 @article{Zhao2021Calibrate,	
   Author = {Tony Z. Zhao and Eric Wallace and Shi Feng and Dan Klein and Sameer Singh},	
-  Journal={arXiv preprint arXiv: http://arxiv.org/abs/2102.09690},	
+  Journal={arXiv preprint arXiv:2102.09690},	
   Year = {2021},	
   Title = {Calibrate Before Use: Improving Few-shot Performance of Language Models}	
 }    	
