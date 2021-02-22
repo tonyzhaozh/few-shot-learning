@@ -1,10 +1,10 @@
 # Few-shot Learning With Language Models
 
-This is a codebase to perform few-shot "in-context" learning using language models similar to the [GPT-3 paper](https://arxiv.org/abs/2005.14165). In particular, a few training examples are placed into a natural language "prompt" and predictions are made by generating from the language model. See the [GPT-3 paper](https://arxiv.org/abs/2005.14165) and [Calibrate Before Use](TODO) for more information.
+This is a codebase to perform few-shot "in-context" learning using language models similar to the [GPT-3 paper](https://arxiv.org/abs/2005.14165). In particular, a few training examples are placed into a natural language "prompt" and predictions are made by generating from the language model. See the [GPT-3 paper](https://arxiv.org/abs/2005.14165) and [Calibrate Before Use](http://arxiv.org/abs/2102.09690) for more information.
 
 You can run this codebase with GPT-3 (if you have a key from OpenAI), GPT-2, and any other language model available in [HuggingFace Transformers](https://huggingface.co/models). If you have a GPT-3 key, you should place your API key into a file named `openai_key.txt`. The underlying model you use is abstracted away using a common API.
 
-Running this codebase will report results with and without [contextual calibration](TODO).
+Running this codebase will report results with and without [contextual calibration](http://arxiv.org/abs/2102.09690).
 
 ## Dependencies
 
@@ -69,7 +69,7 @@ Please consider citing our work if you found this code or our paper beneficial t
 ```
 @article{Zhao2021Calibrate,	
   Author = {Tony Z. Zhao and Eric Wallace and Shi Feng and Dan Klein and Sameer Singh},	
-  Journal={arXiv preprint arXiv:TODO},	
+  Journal={arXiv preprint arXiv: http://arxiv.org/abs/2102.09690},	
   Year = {2021},	
   Title = {Calibrate Before Use: Improving Few-shot Performance of Language Models}	
 }    	
@@ -77,6 +77,6 @@ Please consider citing our work if you found this code or our paper beneficial t
 
 ## Contributions and Contact
 
-This code was developed by Zihao (Tony) Zhao and Eric Wallace, contact available at tonyzhao0824@berkeley.edu and ericwallace@berkeley.edu.	
+This code was developed by Tony Z. Zhao and Eric Wallace, contact available at tonyzhao0824@berkeley.edu and ericwallace@berkeley.edu.	
 
 If you'd like to contribute code, feel free to open a [pull request](https://github.com/tonyzhaozh/few-shot-learning/pulls). If you find an issue, please open an [issue](https://github.com/tonyzhaozh/few-shot-learning/issues).
